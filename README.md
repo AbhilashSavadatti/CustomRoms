@@ -1,41 +1,156 @@
-<h1 align="center">Awesome AndroidROM</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<br> <br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome AndroidROM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
-#### Also Visit: [Awesome-CustomROM](https://github.com/ImKKingshuk/Awesome-CustomROM) to dive into a collection of the best Custom ROMs.
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 2rem;
+            color: #2d2d2d;
+            position: relative;
+            animation: bounce 2s infinite;
+        }
 
-<br><br>
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
 
-|                          Icon                          |    OEM Name    |         ROM Name         | Development Status | Latest Version |                                           Website                                            |
-| :----------------------------------------------------: | :------------: | :----------------------: | :----------------: | :------------: | :------------------------------------------------------------------------------------------: |
-|       <img src="Icons/ROGUI.png"   height="100">       |  **Asus ROG**  |        **ROGUI**         |       Active       |       14       |                        [Website](https://www.asus.com/in/content/ui/)                        |
-|       <img src="Icons/JoyUI.png"   height="100">       | **BlackShark** |        **JoyUI**         |    Discontinued    |       13       |                                         [Website]()                                          |
-|      <img src="Icons/DokeOS.png"   height="100">       | **Blackview**  |        **DokeOS**        |       Active       |       4        |                          [Website](https://promo.blackview.hk/os3/)                          |
-|      <img src="Icons/AmigoOS.png"   height="100">      |   **Gionee**   |       **AmigoOS**        |    Discontinued    |       5        |                                         [Website]()                                          |
-|      <img src="Icons/Android.png"   height="100">      |   **Google**   |       **Android**        |       Active       |       15       |                  [Website](https://www.android.com/intl/en_in/android-14/)                   |
-|      <img src="Icons/MagicOS.png"   height="100">      |   **Honor**    |       **MagicOS**        |       Active       |       8        |                        [Website](https://www.honor.com/in/magic-os/)                         |
-|       <img src="Icons/EMUI.png"   height="100">        |   **Huawei**   |         **EMUI**         |       Active       |       14       |                      [Website](https://consumer.huawei.com/en/emui-13/)                      |
-|     <img src="Icons/HtcSense.png"   height="100">      |    **Htc**     |      **Htc Sense**       |    Discontinued    |       11       |                  [Website](https://www.android.com/intl/en_in/android-14/)                   |
-|        <img src="Icons/XOS.png"   height="100">        |  **Infinix**   |         **XOS**          |       Active       |       13       |                        [Website](https://www.infinixmobiles.in/xos/)                         |
-|        <img src="Icons/ZUI.png"   height="100">        |   **Lenovo**   |         **ZUI**          |       Active       |       16       |                               [Website](https://m.zui.com/#/)                                |
-|     <img src="Icons/FlymeAIOS.png"   height="100">     |   **Meizu**    |      **FlymeAIOS**       |       Active       |       11       |                            [Website](https://www.flyme.com/aios)                             |
-|      <img src="Icons/HelloUI.png"   height="100">      |  **Motorola**  |       **HelloUI**        |       Active       |       1        |                          [Website](https://www.motorola.in/my-ux/p)                          |
-|       <img src="Icons/MyUI.png"   height="100">        |  **Motorola**  |         **MyUI**         |    Discontinued    |       13       |                          [Website](https://www.motorola.in/my-ux/p)                          |
-|       <img src="Icons/SkyUI.png"   height="100">       |    **Nio**     |        **SkyUI**         |       Active       |      1.5       |                              [Website](https://phone.nio.com/)                               |
-|    <img src="Icons/AndroidOne.png"   height="100">     |   **Nokia**    | **PureUI (Android One)** |    Discontinued    |       12       |                           [Website](https://www.android.com/one/)                            |
-|     <img src="Icons/NothingOS.png"   height="100">     |  **Nothing**   |      **NothingOS**       |       Active       |       3        |                                         [Website]()                                          |
-|      <img src="Icons/NubiaUI.png"   height="100">      |   **Nubia**    |       **NubiaUI**        |    Discontinued    |       8        |                                         [Website]()                                          |
-|     <img src="Icons/OxygenOS.png"   height="100">      |  **OnePlus**   |       **OxygenOS**       |       Active       |       15       |                         [Website](https://www.oneplus.in/oxygenos14)                         |
-|    <img src="Icons/HydrogenOS.png"   height="100">     |  **OnePlus**   |      **HydrogenOS**      |    Discontinued    |       11       |                       [Website](https://www.oneplus.com/cn/hydrogenos)                       |
-|      <img src="Icons/ColorOS.png"   height="100">      |    **Oppo**    |       **ColorOS**        |       Active       |       15       |                        [Website](https://www.oppo.com/en/coloros14/)                         |
-|     <img src="Icons/RealmeUI.png"   height="100">      |   **Realme**   |       **RealmeUI**       |       Active       |       5        |                       [Website](https://www.realme.com/in/realme-ui-5)                       |
-|    <img src="Icons/RedmagicOS.png"   height="100">     |  **Redmagic**  |      **RedmagicOS**      |       Active       |       9        |                                         [Website]()                                          |
-|       <img src="Icons/OneUI.png"   height="100">       |  **Samsung**   |        **OneUI**         |       Active       |       7        |                        [Website](https://www.samsung.com/in/one-ui/)                         |
-| <img src="Icons/SamsungExperience.png"   height="100"> |  **Samsung**   |  **Samsung Experience**  |    Discontinued    |       10       |                        [Website](https://www.samsung.com/in/one-ui/)                         |
-|     <img src="Icons/XperiaUI.png"   height="100">      |    **Sony**    |       **XperiaUI**       |       Active       |       14       |                  [Website](https://www.android.com/intl/en_in/android-14/)                   |
-|       <img src="Icons/HiOS.png"   height="100">        |   **Techno**   |         **HiOS**         |       Active       |       13       |                     [Website](https://www.tecno-mobile.com/hios-detail/)                     |
-|    <img src="Icons/FuntouchOS.png"   height="100">     |    **Vivo**    |      **FuntouchOS**      |       Active       |       14       |                         [Website](https://www.vivo.com/in/funtouch)                          |
-|     <img src="Icons/OriginOS.png"   height="100">      |    **Vivo**    |       **OriginOS**       |       Active       |       4        |                         [Website](https://www.vivo.com.cn/originos)                          |
-|      <img src="Icons/HyperOS.png"   height="100">      |   **Xiaomi**   |       **HyperOS**        |       Active       |       1        | [Website Global](https://www.mi.com/global/hyperos) [Website China](https://hyperos.mi.com/) |
-|       <img src="Icons/MIUI.png"   height="100">        |   **Xiaomi**   |         **MIUI**         |    Discontinued    |       14       |  [Website Global](https://www.mi.com/global/miui) [Website China](https://home.miui.com/14)  |
-|       <img src="Icons/MyOS.png"   height="100">        |    **Zte**     |         **MyOS**         |       Active       |       14       |                        [Website](https://www.ztedevices.com/cn/myos/)                        |
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            animation: rotate 3s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 3rem auto;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        img {
+            max-width: 80px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .snippet {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Awesome AndroidROM</h1>
+
+    <img src="path_to_your_logo_image" alt="Logo" class="logo">
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Icon</th>
+                    <th>OEM Name</th>
+                    <th>ROM Name</th>
+                    <th>Development Status</th>
+                    <th>Latest Version</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="Icons/ROGUI.png" alt="ROGUI"></td>
+                    <td><strong>Asus ROG</strong></td>
+                    <td><strong>ROGUI</strong></td>
+                    <td>Active</td>
+                    <td>14</td>
+                    <td><a href="https://www.asus.com/in/content/ui/" target="_blank">Website</a></td>
+                </tr>
+                <tr>
+                    <td><img src="Icons/JoyUI.png" alt="JoyUI"></td>
+                    <td><strong>BlackShark</strong></td>
+                    <td><strong>JoyUI</strong></td>
+                    <td>Discontinued</td>
+                    <td>13</td>
+                    <td><a href="#">Website</a></td>
+                </tr>
+                <tr>
+                    <td><img src="Icons/DokeOS.png" alt="DokeOS"></td>
+                    <td><strong>Blackview</strong></td>
+                    <td><strong>DokeOS</strong></td>
+                    <td>Active</td>
+                    <td>4</td>
+                    <td><a href="https://promo.blackview.hk/os3/" target="_blank">Website</a></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="snippet">
+        <pre>
+| Icon                          | OEM Name     | ROM Name     | Development Status | Latest Version | Website                                     |
+| ----------------------------- | ------------ | ------------ | ------------------ | -------------- | ------------------------------------------- |
+| <img src="Icons/ROGUI.png">    | Asus ROG     | ROGUI        | Active             | 14             | [Website](https://www.asus.com/in/content/ui/)|
+| <img src="Icons/JoyUI.png">    | BlackShark   | JoyUI        | Discontinued       | 13             | [Website]()                                |
+| <img src="Icons/DokeOS.png">   | Blackview    | DokeOS       | Active             | 4              | [Website](https://promo.blackview.hk/os3/)  |
+        </pre>
+    </div>
+
+</body>
+
+</html>
