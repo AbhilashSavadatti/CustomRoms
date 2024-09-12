@@ -1,6 +1,4 @@
 # AndroidROM
-hi
-![Logo](path_to_your_logo_image)
 
 
 | Icon                           | OEM Name     | ROM Name                  | Development Status | Latest Version | Website                                      |
