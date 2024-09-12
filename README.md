@@ -2,7 +2,6 @@
 
 ![Logo](path_to_your_logo_image)
 
-#### Also Visit: [Awesome-CustomROM](https://github.com/ImKKingshuk/Awesome-CustomROM) to dive into a collection of the best Custom ROMs.
 
 | Icon                           | OEM Name     | ROM Name                  | Development Status | Latest Version | Website                                      |
 | ------------------------------ | ------------ | ------------------------- | ------------------ | -------------- | -------------------------------------------- |
